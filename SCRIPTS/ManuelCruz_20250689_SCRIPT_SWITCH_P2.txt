@@ -1,0 +1,19 @@
+enable
+configure terminal
+vlan 10
+name USUARIOS
+exit
+interface g0/0
+switchport trunk encapsulation dot1q
+switchport mode trunk
+switchport trunk allowed vlan 10
+no shutdown
+exit
+interface g0/1
+switchport mode access
+switchport access vlan 10
+spanning-tree portfast
+no shutdown
+exit
+end
+write memory
