@@ -1,5 +1,5 @@
 # Seguridad de Redes - Implementación y Validación de Túnel IPsec Site-to-Site con FortiGate
-# ENLACE HACIA VIDEO:
+# ENLACE HACIA VIDEO: https://youtu.be/rP0XbXDDYTA
 ## 📌 Datos Generales
 - **Autor:** Manuel Alejandro Cruz Messón  
 - **Matrícula:** 2025-0689  
@@ -9,7 +9,7 @@
 ---
 
 ## 🗺️ Topología de Red
-![Topología de Red](https://github.com/labcruzmesson-cyber/Topologia-Fortigate/blob/main/IMAGES/Screenshot%202026-09-25%20173609.png?raw=true)
+![Topología de Red](https://raw.githubusercontent.com/labcruzmesson-cyber/Fortigate-Infraestructura-1/refs/heads/main/IMAGES/Screenshot%202026-10-02%20132621.png)
 ## 1. Diseño de Direccionamiento IP y VLSM
 
 El esquema de direccionamiento con máscaras de subred de longitud variable (VLSM) se calculó directamente a partir de la matrícula del autor (**2025-0689**), segmentando los bloques utilizando los octetos **25**, **06** y **89**.
